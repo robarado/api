@@ -6,13 +6,13 @@ import javax.persistence.GenerationType;
 
 import org.springframework.data.annotation.Id; // sempre usar!
 
-@Entity
+@Entity(name="niveisAcesso")
 public class NivelAcesso {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO) // auto increment
 	private long id;
-	private String nome; //teste
+	private String nome;
 	
 	public long getId() {
 		return id;
