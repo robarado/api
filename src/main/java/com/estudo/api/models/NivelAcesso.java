@@ -12,7 +12,7 @@ public class NivelAcesso {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO) // auto increment
 	private long id;
-	private String nome;
+	private String nome; //teste
 	
 	public long getId() {
 		return id;
